@@ -31,13 +31,17 @@ const MovieList = () => {
 
     return (
         <main className="movie-list">
-            <div>
+            <div className="movie-grid">
                 {movies.map((movie) => {
-                    const posterurl = `https://image.tmdb.org/t/p/w300${movie.poster_path}`;
+                    const posterurl = `https://image.tmdb.org/t/p/w780${movie.poster_path}`;
 
                     return (
                         <Link className="movie-card" key={movie.id} to={`/movies/${movie.id}`}>
                             <img src={posterurl} alt={movie.title} />
+                            <div className="movie-card-overlay">
+                                <h1 className="movie-title">{movie.title}</h1>
+                                <p className="movie-date">Released {movie.release_date}</p>
+                            </div>
                         </Link>
                     );
                 })};
