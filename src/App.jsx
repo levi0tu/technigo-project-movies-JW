@@ -1,7 +1,15 @@
 import React from "react";
-import MovieList from "./pages/MovieDetail";
-import MovieDetail from "./pages/MovieList";
+import MovieList from "./pages/MovieList";
+import MovieDetail from "./pages/MovieDetail";
+import { Routes, Route } from "react-router-dom";
 
 export const App = () => {
-  return <div>Find me in src/app.jsx!</div>
-}
+  return (
+    <Routes>
+      <Route path="/" element={<MovieList />} />
+      <Route path="/movies/:id" element={<MovieDetail />} />
+
+    </Routes>
+  );
+};
+
