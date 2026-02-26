@@ -1,24 +1,11 @@
 # Movies
 
-Replace this readme with your own information about the project. You can include things like:
+The assignment is to create an app and use API to fetch popular movies. There should be two pages, one with all movies and one for single movie details.
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
-- How to run the project locally
+- I started with setting up the API and making sure it was fetched and displayed on the page.
+- I used AI to help me understand the links and connections step by step.
+- My strategy was to resemble the design of the provided example page.
+- If I had more time I would get creative fetching other types of data and creating more pages.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
-
-
-## Getting Started with the Project
-
-### Dependency Installation & Startup Development Server
-
-Once cloned, navigate to the project's root directory and this project uses npm (Node Package Manager) to manage its dependencies.
-
-The command below is a combination of installing dependencies, opening up the project on VS Code and it will run a development server on your terminal.
-
-```bash
-npm i && code . && npm run dev
-```
+(https://technigo-project-movies-jw.netlify.app/)
